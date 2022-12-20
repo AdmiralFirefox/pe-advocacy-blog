@@ -1,0 +1,34 @@
+@use "../themeprovider/themeprovider" as theme-provider;
+
+.hero-section-wrapper {
+  background: url("../../assets/herobg.png")
+    theme-provider.$brown-color-semi-transparent;
+  background-size: cover;
+  background-position: center 4.5em;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+  height: 35em;
+
+  .hero-section-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+
+    h1 {
+      color: theme-provider.$smoke-white-color;
+      text-align: center;
+      width: min(15em, 85%);
+      font-size: clamp(2.2rem, 4vw, 3.15rem);
+      line-height: 1.4em;
+      user-select: none;
+    }
+  }
+}
+
+@media (min-width: theme-provider.$media-query-normal-value) {
+  .hero-section-wrapper {
+    height: 100vh;
+  }
+}
