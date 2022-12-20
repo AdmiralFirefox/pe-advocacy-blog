@@ -1,0 +1,191 @@
+@use "../themeprovider/themeprovider" as theme-provider;
+
+// Desktop Navbar
+.desktop-navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: theme-provider.$dark-green-color;
+  padding: 0.8em 0.5em;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 4;
+
+  div:first-child {
+    display: flex;
+    align-items: center;
+
+    // Nav Icon
+    label {
+      display: flex;
+      flex-direction: column;
+      width: 4.3em;
+      cursor: pointer;
+      transform: scale(0.75);
+      margin-right: 0.5em;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    label span {
+      background: #fff;
+      border-radius: 10px;
+      height: 7px;
+      margin: 7px 0;
+      transition: 0.4s cubic-bezier(0.68, -0.6, 0.32, 1.6);
+    }
+
+    span:nth-of-type(1) {
+      width: 50%;
+    }
+
+    span:nth-of-type(2) {
+      width: 100%;
+    }
+
+    span:nth-of-type(3) {
+      width: 75%;
+    }
+
+    input[type="checkbox"] {
+      display: none;
+    }
+
+    input[type="checkbox"]:checked ~ span:nth-of-type(1) {
+      transform-origin: bottom;
+      transform: rotatez(45deg) translate(8px, 0px);
+    }
+
+    input[type="checkbox"]:checked ~ span:nth-of-type(2) {
+      transform-origin: top;
+      transform: rotatez(-45deg);
+    }
+
+    input[type="checkbox"]:checked ~ span:nth-of-type(3) {
+      transform-origin: bottom;
+      width: 50%;
+      transform: translate(30px, -11px) rotatez(45deg);
+    }
+
+    // Web Logo
+    img {
+      width: 3.7em;
+      cursor: pointer;
+      -webkit-tap-highlight-color: transparent;
+    }
+  }
+
+  div:nth-child(2) {
+    display: none;
+
+    p {
+      color: theme-provider.$white-color;
+      font-size: 1.15rem;
+      font-weight: 700;
+      transition: color 0.6s ease-in-out;
+      cursor: pointer;
+
+      &:hover {
+        color: theme-provider.$light-blue-green-color;
+      }
+
+      &::after {
+        content: "";
+        background: theme-provider.$light-blue-green-color;
+        position: relative;
+        top: 0.3em;
+        display: block;
+        width: 0%;
+        height: 0.23em;
+        transition: width 0.6s ease-in-out;
+      }
+
+      &:hover::after {
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media (min-width: theme-provider.$media-query-normal-value) {
+  .desktop-navbar {
+    padding: 1em 1.8em;
+
+    div:first-child {
+      label {
+        display: none;
+      }
+    }
+
+    div:nth-child(2) {
+      display: flex;
+      align-items: center;
+      gap: 2em;
+      margin: 0em 0.8em;
+      user-select: none;
+      -webkit-tap-highlight-color: transparent;
+    }
+  }
+}
+
+// Mobile Navbar
+.mobile-navbar {
+  transform: translateY(-100vh);
+  background: theme-provider.$dark-green-color;
+  text-align: center;
+  line-height: 5em;
+  position: fixed;
+  width: 100%;
+  z-index: 3;
+  box-shadow: 5px 10px 20px 1px rgba(0, 0, 0, 0.3);
+  transition: transform 0.8s ease-in-out;
+
+  p {
+    color: theme-provider.$white-color;
+    font-size: 1.4rem;
+    font-weight: 700;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+    transition: background 0.25s ease;
+
+    &:hover {
+      background: theme-provider.$slightly-dark-green-color;
+    }
+  }
+}
+
+@media (min-width: theme-provider.$media-query-normal-value) {
+  .mobile-navbar {
+    display: none;
+  }
+}
+
+// Navbar Active
+.navbar-active {
+  transform: translateY(12vh);
+}
+
+// Navbar
+.navbar-overlay {
+  background: theme-provider.$black-color-semi-transparent;
+  height: 100vh;
+  width: 100%;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.6s ease-in-out, visibility 0.6s ease-in-out;
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+}
+
+.navbar-overlay-active {
+  visibility: visible;
+  opacity: 1;
+}
+
+@media (min-width: theme-provider.$media-query-normal-value) {
+  .navbar-overlay {
+    display: none;
+  }
+}
