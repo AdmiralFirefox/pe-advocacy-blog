@@ -1,3 +1,12 @@
+@use "./navbar/navbar";
+@use "./articles/articles";
+@use "./conclusion/conclusion";
+@use "./definition/definition";
+@use "./examples/examples";
+@use "./footer/footer";
+@use "./hero/hero";
+@use "./infographic/infographic";
+
 * {
   margin: 0;
   padding: 0;
