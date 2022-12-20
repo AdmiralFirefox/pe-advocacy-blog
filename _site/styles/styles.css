@@ -4,7 +4,7 @@
   justify-content: space-between;
   align-items: center;
   background: #09502e;
-  padding: 0.8em 0.5em;
+  padding: 0.5em 0.5em;
   position: fixed;
   top: 0;
   width: 100%;
@@ -56,7 +56,8 @@
   transform: translate(30px, -11px) rotatez(45deg);
 }
 .desktop-navbar div:first-child img {
-  width: 3.7em;
+  width: 3.2em;
+  margin: 0.25em 0em;
   cursor: pointer;
   -webkit-tap-highlight-color: transparent;
 }
@@ -89,7 +90,7 @@
 
 @media (min-width: 46em) {
   .desktop-navbar {
-    padding: 1em 1.8em;
+    padding: 0.5em 1.8em;
   }
   .desktop-navbar div:first-child label {
     display: none;
@@ -135,7 +136,7 @@
   }
 }
 .navbar-active {
-  transform: translateY(5em);
+  transform: translateY(4.45em);
 }
 
 .navbar-overlay {

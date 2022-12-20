@@ -6,7 +6,7 @@
   justify-content: space-between;
   align-items: center;
   background: theme-provider.$dark-green-color;
-  padding: 0.8em 0.5em;
+  padding: 0.5em 0.5em;
   position: fixed;
   top: 0;
   width: 100%;
@@ -69,7 +69,8 @@
 
     // Web Logo
     img {
-      width: 3.7em;
+      width: 3.2em;
+      margin: 0.25em 0em;
       cursor: pointer;
       -webkit-tap-highlight-color: transparent;
     }
@@ -109,7 +110,7 @@
 
 @media (min-width: theme-provider.$media-query-normal-value) {
   .desktop-navbar {
-    padding: 1em 1.8em;
+    padding: 0.5em 1.8em;
 
     div:first-child {
       label {
@@ -165,7 +166,7 @@
 
 // Navbar Active
 .navbar-active {
-  transform: translateY(5em);
+  transform: translateY(4.45em);
 }
 
 // Navbar
