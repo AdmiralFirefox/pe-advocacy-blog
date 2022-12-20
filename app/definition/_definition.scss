@@ -1,0 +1,83 @@
+@use "../themeprovider/themeprovider" as theme-provider;
+
+$content-margin-top: 4.5em;
+
+@mixin headerOneTitle($header-width) {
+  background: theme-provider.$light-blue-green-color;
+  color: theme-provider.$light-green-color;
+  font-size: clamp(2.7rem, 4.45vw, 3.5rem);
+  width: $header-width;
+  padding: 0.2em 0.4em;
+}
+
+.definition-wrapper {
+  background: theme-provider.$light-green-color;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5em;
+
+  .definition-content {
+    width: 100%;
+    padding: 0em 2em;
+
+    h1:first-of-type {
+      @include headerOneTitle(100%);
+    }
+
+    h1:nth-of-type(2) {
+      @include headerOneTitle(100%);
+    }
+
+    p {
+      color: theme-provider.$slightly-dark-green-color;
+      margin-top: 1em;
+      font-size: clamp(1rem, 1.5vw, 1.15rem);
+      line-height: 1.4em;
+    }
+  }
+
+  .definition-image-wrapper {
+    display: flex;
+    justify-content: center;
+    pointer-events: none;
+    -webkit-tap-highlight-color: transparent;
+    margin-top: 3.5em;
+
+    img {
+      width: min(25em, 100%);
+    }
+  }
+}
+
+@media (min-width: theme-provider.$media-query-normal-value) {
+  .definition-wrapper {
+    flex-direction: row;
+    gap: 0em;
+
+    .definition-content {
+      margin-top: $content-margin-top;
+      margin-left: 2em;
+      width: 38em;
+      padding: 0em;
+
+      h1:first-of-type {
+        @include headerOneTitle(5.5em);
+      }
+
+      h1:nth-of-type(2) {
+        @include headerOneTitle(7em);
+      }
+    }
+
+    .definition-image-wrapper {
+      align-self: flex-start;
+      margin-top: $content-margin-top;
+
+      img {
+        width: min(30em, 90%);
+      }
+    }
+  }
+}

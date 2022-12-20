@@ -160,6 +160,82 @@
     display: none;
   }
 }
+.definition-wrapper {
+  background: #c6ffc1;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5em;
+}
+.definition-wrapper .definition-content {
+  width: 100%;
+  padding: 0em 2em;
+}
+.definition-wrapper .definition-content h1:first-of-type {
+  background: #59c1bd;
+  color: #c6ffc1;
+  font-size: clamp(2.7rem, 4.45vw, 3.5rem);
+  width: 100%;
+  padding: 0.2em 0.4em;
+}
+.definition-wrapper .definition-content h1:nth-of-type(2) {
+  background: #59c1bd;
+  color: #c6ffc1;
+  font-size: clamp(2.7rem, 4.45vw, 3.5rem);
+  width: 100%;
+  padding: 0.2em 0.4em;
+}
+.definition-wrapper .definition-content p {
+  color: #489e8e;
+  margin-top: 1em;
+  font-size: clamp(1rem, 1.5vw, 1.15rem);
+  line-height: 1.4em;
+}
+.definition-wrapper .definition-image-wrapper {
+  display: flex;
+  justify-content: center;
+  pointer-events: none;
+  -webkit-tap-highlight-color: transparent;
+  margin-top: 3.5em;
+}
+.definition-wrapper .definition-image-wrapper img {
+  width: min(25em, 100%);
+}
+
+@media (min-width: 46em) {
+  .definition-wrapper {
+    flex-direction: row;
+    gap: 0em;
+  }
+  .definition-wrapper .definition-content {
+    margin-top: 4.5em;
+    margin-left: 2em;
+    width: 38em;
+    padding: 0em;
+  }
+  .definition-wrapper .definition-content h1:first-of-type {
+    background: #59c1bd;
+    color: #c6ffc1;
+    font-size: clamp(2.7rem, 4.45vw, 3.5rem);
+    width: 5.5em;
+    padding: 0.2em 0.4em;
+  }
+  .definition-wrapper .definition-content h1:nth-of-type(2) {
+    background: #59c1bd;
+    color: #c6ffc1;
+    font-size: clamp(2.7rem, 4.45vw, 3.5rem);
+    width: 7em;
+    padding: 0.2em 0.4em;
+  }
+  .definition-wrapper .definition-image-wrapper {
+    align-self: flex-start;
+    margin-top: 4.5em;
+  }
+  .definition-wrapper .definition-image-wrapper img {
+    width: min(30em, 90%);
+  }
+}
 .hero-section-wrapper {
   background: url("../../assets/herobg.png") rgba(86, 71, 57, 0.8);
   background-size: cover;
