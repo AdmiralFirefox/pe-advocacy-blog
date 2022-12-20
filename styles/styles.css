@@ -104,7 +104,9 @@
   }
 }
 .mobile-navbar {
-  transform: translateY(-100vh);
+  transform: translateY(-150vh);
+  height: min(25em, 72%);
+  overflow-y: auto;
   background: #09502e;
   text-align: center;
   line-height: 5em;
