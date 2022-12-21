@@ -1,6 +1,6 @@
 @use "../themeprovider/themeprovider" as theme-provider;
 
-.articles-two-wrapper {
+.articles-four-wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -8,7 +8,7 @@
   gap: 2em;
   margin: 1.5em 2em 5em 2em;
 
-  .articles-two-image-wrapper {
+  .articles-four-image-wrapper {
     width: 100%;
 
     img {
@@ -17,7 +17,7 @@
     }
   }
 
-  .articles-two-content {
+  .articles-four-content {
     width: 100%;
 
     h1 {
@@ -35,15 +35,15 @@
 }
 
 @media (min-width: theme-provider.$media-query-normal-value) {
-  .articles-two-wrapper {
+  .articles-four-wrapper {
     flex-direction: row;
 
-    .articles-two-image-wrapper {
+    .articles-four-image-wrapper {
       align-self: flex-start;
       width: min(40em, 90%);
     }
 
-    .articles-two-content {
+    .articles-four-content {
       width: 37em;
     }
   }

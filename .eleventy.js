@@ -2,6 +2,9 @@ const Navbar = require("./src/_includes/components/Navbar");
 const Hero = require("./src/_includes/components/Hero");
 const Definition = require("./src/_includes/components/Definition");
 const Articles1 = require("./src/_includes/components/Articles1");
+const Articles2 = require("./src/_includes/components/Articles2");
+const Articles3 = require("./src/_includes/components/Articles3");
+const Articles4 = require("./src/_includes/components/Articles4");
 
 module.exports = function (eleventyConfig) {
   // Stylesheets
@@ -20,6 +23,9 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addShortcode("Hero", Hero);
   eleventyConfig.addShortcode("Definition", Definition);
   eleventyConfig.addShortcode("Articles1", Articles1);
+  eleventyConfig.addShortcode("Articles2", Articles2);
+  eleventyConfig.addShortcode("Articles3", Articles3);
+  eleventyConfig.addShortcode("Articles4", Articles4);
 
   return {
     dir: {
