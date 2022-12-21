@@ -9,33 +9,38 @@ const Articles1 = () => {
       <div class="articles-two-content">
         <h1>Benefits of Playing Laro ng Lahi</h1>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero ex
-          qui itaque harum repellendus ab molestias nam? Fugit ratione explicabo
-          repudiandae officia voluptas excepturi commodi tenetur unde quis
-          quidem eaque ullam sapiente, facilis magnam et iure veritatis
-          blanditiis quas inventore quae vitae porro necessitatibus. Recusandae
-          aspernatur, quam sunt, neque cupiditate repellendus debitis quasi
-          dicta quae laudantium dolor veniam voluptate corrupti fuga possimus,
-          cumque earum totam dolores dolorum repellat soluta aperiam magni! Iure
-          porro placeat sequi tempore ipsum laudantium, quo quia repudiandae
-          dolore mollitia impedit, veritatis ad aspernatur nemo alias. Impedit
-          labore nam odio eveniet. Ducimus, vel fugit? Nobis, hic ducimus vel
-          deleniti, sapiente aut ab ea doloremque illum sit repellat pariatur,
-          nesciunt alias voluptatum quidem labore veritatis! Doloribus nihil
-          dolor, dicta cum eaque fugit earum iure quos aperiam animi maiores
-          minima facere laboriosam voluptates, culpa hic voluptatem labore
-          cupiditate ullam sed sapiente minus nulla? Doloribus, iste nam alias
-          blanditiis unde non beatae molestias velit enim amet illum qui
-          cupiditate. Architecto modi officiis inventore sequi molestias sit
-          quaerat, ullam aspernatur, nulla commodi expedita aut magnam? Nihil ut
-          molestias iste velit, doloremque provident rerum laborum dolor
-          temporibus earum commodi hic inventore nemo suscipit ea possimus error
-          autem fugit ducimus facere vero tempore, totam reprehenderit? Quia a
-          fugiat neque recusandae modi ratione earum, aliquid non eveniet
-          molestiae voluptatum nisi pariatur ducimus libero omnis quidem soluta
-          suscipit commodi adipisci consequatur reiciendis esse explicabo velit.
-          Ut illo officia eveniet corrupti repellendus modi quam vero vel est
-          rem ea nostrum, eaque non at reiciendis asperiores tenetur?
+          <strong>1) Heart and circulatory system:</strong> Regular exercise or
+          playing healthy games makes the heart muscles stronger and more
+          efficient. The heart-beats of an athlete do not increase appreciably
+          even when doing something requiring physical exertion, and revert very
+          soon to the normal rate afterwards. In contrast, even a little
+          exertion sends the pulse rate of a sedentary individual rocketing up,
+          and it takes time for the heart to settle down to its normal rate of
+          beating. The blood vessels dilate during exercise, and so more blood
+          reaches the muscles. It has been found that during vigorous or rapid
+          exercise, the blood circulation in certain muscles and organs
+          increases 25 to 30 times, thus supplying the muscles and organs with
+          more oxygen and a larger number of red blood corpuscles.
+          <br />
+          <br />
+          <strong>2) The respiratory system:</strong> Breathing becomes not only
+          more rapid, but also deeper, thus making increased quantities of
+          oxygen available.
+          <br />
+          <br />
+          <strong>3) The musculature:</strong> Healthy Games strengthens the
+          muscles, promotes their development and increases their efficiency.
+          Stronger muscles lend better support to the joints.
+          <br />
+          <br />
+          <strong>4) The skin:</strong> The pores of the skin open up during
+          exercise. The result is a healthier skin, because of more efficient
+          disposal of impurities and dirt.
+          <br />
+          <br />
+          <strong>5) Temperature of the body:</strong> The temperature of the
+          body rises during playing. This promotes the burning up of the toxic
+          substances in the body.
         </p>
       </div>
     </section>

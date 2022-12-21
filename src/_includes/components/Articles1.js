@@ -9,33 +9,32 @@ const Articles1 = () => {
       <div class="articles-one-content">
         <h1>Laro ng Lahi in Danger of Vanishing</h1>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero ex
-          qui itaque harum repellendus ab molestias nam? Fugit ratione explicabo
-          repudiandae officia voluptas excepturi commodi tenetur unde quis
-          quidem eaque ullam sapiente, facilis magnam et iure veritatis
-          blanditiis quas inventore quae vitae porro necessitatibus. Recusandae
-          aspernatur, quam sunt, neque cupiditate repellendus debitis quasi
-          dicta quae laudantium dolor veniam voluptate corrupti fuga possimus,
-          cumque earum totam dolores dolorum repellat soluta aperiam magni! Iure
-          porro placeat sequi tempore ipsum laudantium, quo quia repudiandae
-          dolore mollitia impedit, veritatis ad aspernatur nemo alias. Impedit
-          labore nam odio eveniet. Ducimus, vel fugit? Nobis, hic ducimus vel
-          deleniti, sapiente aut ab ea doloremque illum sit repellat pariatur,
-          nesciunt alias voluptatum quidem labore veritatis! Doloribus nihil
-          dolor, dicta cum eaque fugit earum iure quos aperiam animi maiores
-          minima facere laboriosam voluptates, culpa hic voluptatem labore
-          cupiditate ullam sed sapiente minus nulla? Doloribus, iste nam alias
-          blanditiis unde non beatae molestias velit enim amet illum qui
-          cupiditate. Architecto modi officiis inventore sequi molestias sit
-          quaerat, ullam aspernatur, nulla commodi expedita aut magnam? Nihil ut
-          molestias iste velit, doloremque provident rerum laborum dolor
-          temporibus earum commodi hic inventore nemo suscipit ea possimus error
-          autem fugit ducimus facere vero tempore, totam reprehenderit? Quia a
-          fugiat neque recusandae modi ratione earum, aliquid non eveniet
-          molestiae voluptatum nisi pariatur ducimus libero omnis quidem soluta
-          suscipit commodi adipisci consequatur reiciendis esse explicabo velit.
-          Ut illo officia eveniet corrupti repellendus modi quam vero vel est
-          rem ea nostrum, eaque non at reiciendis asperiores tenetur?
+          One of the nations renowned for its rich, varied cultural history and
+          distinctive customs is the Philippines. Strongly affected by the many
+          colonizers, from the Spanish to the Americans to neighboring Japan,
+          their long histories and exchanges combine to form the foundation of
+          our current society. Indeed, the distinctiveness, vivacity, and
+          spirituality of our rituals profoundly represent the Filipino
+          identity.
+          <br />
+          <br />
+          While we are progressively entering the world of globalization, and
+          the advancement it brought to the nation is excellent, on the
+          downside, it has slowly taken the vital elements that have already
+          been a part of our culture and customs for many decades.
+          <br />
+          <br />
+          The world in which we live is advancing technologically. This is the
+          era when millennials frequently ignore these traditional games in
+          favor of new technology. However, several studies have found that
+          these age-old Filipino pastimes benefit our physical, social, and
+          emotional well-being. This type of physical stamina and endurance
+          training strengthens your immune system. Additionally, the social
+          component was established, which is crucial for child development.
+          Playing with other kids improves confidence and communication
+          abilities. It's beneficial in that it also strengthens our feeling of
+          cultural identity. Our advocacy aims to prevent traditional games,
+          such as laro ng lahi, from being irrelevant.
         </p>
       </div>
     </section>
