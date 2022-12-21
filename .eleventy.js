@@ -7,6 +7,7 @@ const Articles3 = require("./src/_includes/components/Articles3");
 const Articles4 = require("./src/_includes/components/Articles4");
 const Examples = require("./src/_includes/components/Examples");
 const Infographic = require("./src/_includes/components/Infographic");
+const Conclusion = require("./src/_includes/components/Conclusion");
 
 module.exports = function (eleventyConfig) {
   // Stylesheets
@@ -30,6 +31,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addShortcode("Articles4", Articles4);
   eleventyConfig.addShortcode("Examples", Examples);
   eleventyConfig.addShortcode("Infographic", Infographic);
+  eleventyConfig.addShortcode("Conclusion", Conclusion);
 
   return {
     dir: {

@@ -325,6 +325,37 @@
     width: 37em;
   }
 }
+.conclusion-top-waves {
+  height: 9.4em;
+  overflow: hidden;
+}
+
+.conclusion-content {
+  background: #c6ffc1;
+  padding-bottom: 5em;
+}
+.conclusion-content h1 {
+  color: #235d5b;
+  text-align: center;
+  font-size: clamp(2.5rem, 4vw, 3.5rem);
+}
+.conclusion-content .conclusion-text {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 2em;
+}
+.conclusion-content .conclusion-text p {
+  width: min(50em, 90%);
+  color: #235d5b;
+  text-align: center;
+  padding: 2em;
+  border: 7px solid #235d5b;
+  border-radius: 10px;
+  font-size: clamp(1rem, 1.5vw, 1.3rem);
+  line-height: 1.45em;
+}
+
 .definition-wrapper {
   background: #c6ffc1;
   display: flex;

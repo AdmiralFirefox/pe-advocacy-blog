@@ -1,0 +1,35 @@
+@use "../themeprovider/themeprovider" as theme-provider;
+
+.conclusion-top-waves {
+  height: 9.4em;
+  overflow: hidden;
+}
+
+.conclusion-content {
+  background: theme-provider.$light-green-color;
+  padding-bottom: 5em;
+
+  h1 {
+    color: theme-provider.$dark-green-color-2;
+    text-align: center;
+    font-size: clamp(2.5rem, 4vw, 3.5rem);
+  }
+
+  .conclusion-text {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+
+    p {
+      width: min(50em, 90%);
+      color: theme-provider.$dark-green-color-2;
+      text-align: center;
+      padding: 2em;
+      border: 7px solid theme-provider.$dark-green-color-2;
+      border-radius: 10px;
+      font-size: clamp(1rem, 1.5vw, 1.3rem);
+      line-height: 1.45em;
+    }
+  }
+}
