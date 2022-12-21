@@ -189,6 +189,9 @@
   line-height: 1.7rem;
   color: #564739;
 }
+.articles-one-wrapper .articles-one-content p::first-letter {
+  font-size: clamp(2.5rem, 4vw, 3rem);
+}
 
 @media (min-width: 46em) {
   .articles-one-wrapper {
@@ -312,6 +315,9 @@
   line-height: 1.7rem;
   color: #564739;
 }
+.articles-four-wrapper .articles-four-content p::first-letter {
+  font-size: clamp(2.5rem, 4vw, 3rem);
+}
 
 @media (min-width: 46em) {
   .articles-four-wrapper {
@@ -394,6 +400,9 @@
   margin-top: 1em;
   font-size: clamp(1rem, 1.5vw, 1.15rem);
   line-height: 1.4em;
+}
+.definition-wrapper .definition-content p::first-letter {
+  font-size: clamp(2.5rem, 4vw, 3rem);
 }
 .definition-wrapper .definition-image-wrapper {
   display: flex;
