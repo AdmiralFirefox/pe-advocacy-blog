@@ -2,6 +2,7 @@ const navIcon = document.querySelector("#check");
 const mobileNavbar = document.querySelector("#mobile-navbar");
 const webLogo = document.querySelector("#weblogo");
 const navbarOverlay = document.querySelector("#navbar-overlay");
+const scrollToTopButton = document.querySelector("#scroll-to-up");
 
 // Scroll Links
 const scrollDefinition = document.querySelectorAll("#scroll-definition");
@@ -54,7 +55,20 @@ for (const child of mobileNavbar.children) {
 // Navbar Overlay
 navbarOverlay.addEventListener("click", toggleNavbar);
 
-// Scroll to the Topmost Section
+// Scroll to Top
+const buttonVisibility = () => {
+  if (window.scrollY > 100) {
+    scrollToTopButton.classList.add("scroll-active");
+  } else {
+    scrollToTopButton.classList.remove("scroll-active");
+  }
+};
+
+const scrollToUp = () => {
+  window.scrollTo({ top: 0, behavior: "smooth" });
+};
+
+// Scroll to Hero Section
 webLogo.addEventListener("click", () => {
   scrollHeroSection.scrollIntoView({
     behavior: "smooth",
@@ -105,3 +119,12 @@ scrollConclusion.forEach((sectionLinks) => {
     });
   });
 });
+
+// functions of all event listners
+const allEventListners = () => {
+  window.addEventListener("scroll", buttonVisibility);
+  window.addEventListener("load", buttonVisibility);
+};
+
+// load all event listners
+allEventListners();
