@@ -518,7 +518,7 @@
   text-align: center;
 }
 .infographic-wrapper .infographic-image-wrapper {
-  width: 100%;
+  width: min(27em, 100%);
 }
 .infographic-wrapper .infographic-image-wrapper img {
   width: 100%;
