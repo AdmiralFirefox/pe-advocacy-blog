@@ -4,7 +4,7 @@ const Articles1 = () => {
   return html`
     <section class="articles-four-wrapper">
       <div class="articles-four-image-wrapper">
-        <img src="../../assets/experiences.jpg" alt="Experiences" />
+        <img src="../../assets/article4.png" alt="Laro ng Lahi" />
       </div>
       <div class="articles-four-content">
         <h1>Importance of Laro ng Lahi in the Modern Days</h1>
