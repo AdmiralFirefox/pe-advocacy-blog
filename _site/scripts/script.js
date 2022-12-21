@@ -3,6 +3,10 @@ const mobileNavbar = document.querySelector("#mobile-navbar");
 const webLogo = document.querySelector("#weblogo");
 const navbarOverlay = document.querySelector("#navbar-overlay");
 const scrollToTopButton = document.querySelector("#scroll-to-up");
+const fadeUpAnimate = document.querySelectorAll("#fade-up-animation");
+const fadeUpAnimateLowDelay = document.querySelectorAll(
+  "#fade-up-animation-low-delay"
+);
 
 // Scroll Links
 const scrollDefinition = document.querySelectorAll("#scroll-definition");
@@ -128,3 +132,44 @@ const allEventListners = () => {
 
 // load all event listners
 allEventListners();
+
+// Fade Up Animation
+const observer = new IntersectionObserver(
+  (entries) => {
+    entries.forEach((entry) => {
+      const intersecting = entry.isIntersecting;
+      entry.target.classList.toggle("fade-up-animate", intersecting);
+
+      if (entry.isIntersecting) {
+        observer.unobserve(entry.target);
+      }
+    });
+  },
+  {
+    threshold: 0.8,
+  }
+);
+
+const observer2 = new IntersectionObserver(
+  (entries) => {
+    entries.forEach((entry) => {
+      const intersecting = entry.isIntersecting;
+      entry.target.classList.toggle("fade-up-animate-low-delay", intersecting);
+
+      if (entry.isIntersecting) {
+        observer2.unobserve(entry.target);
+      }
+    });
+  },
+  {
+    threshold: 0.17,
+  }
+);
+
+fadeUpAnimate.forEach((element) => {
+  observer.observe(element);
+});
+
+fadeUpAnimateLowDelay.forEach((element) => {
+  observer2.observe(element);
+});

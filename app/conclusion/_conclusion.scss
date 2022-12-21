@@ -30,6 +30,14 @@
       border-radius: 10px;
       font-size: clamp(1rem, 1.5vw, 1.3rem);
       line-height: 1.45em;
+      opacity: 0;
+      transform: translateY(1.5em);
+      transition: opacity 1.3s ease-in-out, transform 1.3s ease-in-out;
+    }
+
+    .fade-up-animate-low-delay {
+      opacity: 1;
+      transform: translateY(0em);
     }
   }
 }

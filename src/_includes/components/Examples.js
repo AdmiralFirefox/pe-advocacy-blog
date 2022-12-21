@@ -19,37 +19,37 @@ const Examples = () => {
       <h1 class="examples-title">Examples of Laro ng Lahi</h1>
 
       <div class="examples-content">
-        <div>
+        <div class="content-card" id="fade-up-animation">
           <div class="examples-image-overflow">
             <img src="../../assets/hukbo.jpg" alt="Hukbo" />
           </div>
           <h1>Hukbo</h1>
         </div>
-        <div>
+        <div class="content-card" id="fade-up-animation">
           <div class="examples-image-overflow">
             <img src="../../assets/batuhangbola.png" alt="Hukbo" />
           </div>
           <h1>Batuhang Bola</h1>
         </div>
-        <div>
+        <div class="content-card" id="fade-up-animation">
           <div class="examples-image-overflow">
             <img src="../../assets/dampa.png" alt="Hukbo" />
           </div>
           <h1>Dampa</h1>
         </div>
-        <div>
+        <div class="content-card" id="fade-up-animation">
           <div class="examples-image-overflow">
             <img src="../../assets/tumbangpreso.png" alt="Hukbo" />
           </div>
           <h1>Tumbang Preso</h1>
         </div>
-        <div>
+        <div class="content-card" id="fade-up-animation">
           <div class="examples-image-overflow">
             <img src="../../assets/luksongtinik.png" alt="Hukbo" />
           </div>
           <h1>Luksong Tinik</h1>
         </div>
-        <div>
+        <div class="content-card" id="fade-up-animation">
           <div class="examples-image-overflow">
             <img src="../../assets/luksonglubid.png" alt="Hukbo" />
           </div>

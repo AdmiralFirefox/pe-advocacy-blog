@@ -354,6 +354,13 @@
   border-radius: 10px;
   font-size: clamp(1rem, 1.5vw, 1.3rem);
   line-height: 1.45em;
+  opacity: 0;
+  transform: translateY(1.5em);
+  transition: opacity 1.3s ease-in-out, transform 1.3s ease-in-out;
+}
+.conclusion-content .conclusion-text .fade-up-animate-low-delay {
+  opacity: 1;
+  transform: translateY(0em);
 }
 
 .definition-wrapper {
@@ -465,28 +472,35 @@
   grid-gap: 2em;
   margin: 3em 1em 0em 1em;
 }
-.examples-wrapper .examples-content div {
+.examples-wrapper .examples-content .content-card {
   display: flex;
   flex-direction: column;
   align-items: center;
+  opacity: 0;
+  transform: translateY(2em);
+  transition: opacity 1.3s ease-in-out, transform 1.3s ease-in-out;
 }
-.examples-wrapper .examples-content div .examples-image-overflow {
+.examples-wrapper .examples-content .content-card .examples-image-overflow {
   overflow: hidden;
   border-radius: 10px;
 }
-.examples-wrapper .examples-content div .examples-image-overflow img {
+.examples-wrapper .examples-content .content-card .examples-image-overflow img {
   width: 100%;
   transform: scale(1);
   transition: transform 0.6s ease-in-out;
 }
-.examples-wrapper .examples-content div .examples-image-overflow img:hover {
+.examples-wrapper .examples-content .content-card .examples-image-overflow img:hover {
   transform: scale(1.5);
 }
-.examples-wrapper .examples-content div h1 {
+.examples-wrapper .examples-content .content-card h1 {
   text-align: center;
   color: #564739;
   font-size: clamp(1.5rem, 2.5vw, 2rem);
   margin-top: 0.5em;
+}
+.examples-wrapper .examples-content .fade-up-animate {
+  opacity: 1;
+  transform: translateY(0em);
 }
 
 @media (min-width: 40em) {
@@ -564,6 +578,13 @@
   font-size: clamp(2.2rem, 4vw, 3.15rem);
   line-height: 1.4em;
   user-select: none;
+  opacity: 0;
+  transform: translateY(1.5em);
+  transition: opacity 1.5s ease-in-out, transform 1.5s ease-in-out;
+}
+.hero-section-wrapper .hero-section-content .fade-up-animate {
+  opacity: 1;
+  transform: translateY(0em);
 }
 
 @media (min-width: 46em) {

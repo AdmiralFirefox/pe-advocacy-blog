@@ -19,7 +19,7 @@ const Conclusion = () => {
       <div class="conclusion-content">
         <h1>Conclusion</h1>
         <div class="conclusion-text">
-          <p>
+          <p id="fade-up-animation-low-delay">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
             quis molestias ipsum cum adipisci quia, voluptatibus pariatur a
             laborum quo quam nostrum ab qui libero saepe eaque eos eum deserunt.
