@@ -1,0 +1,44 @@
+@use "../themeprovider/themeprovider" as theme-provider;
+
+.infographic-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 3em;
+  margin: 1em 2em 5em 2em;
+
+  h1 {
+    background: theme-provider.$slightly-dark-green-color;
+    color: theme-provider.$light-mocha-color;
+    padding: 0.5em;
+    font-size: clamp(2.3rem, 4vw, 3rem);
+    width: 100%;
+    text-align: center;
+  }
+
+  .infographic-image-wrapper {
+    width: 100%;
+
+    img {
+      width: 100%;
+      border-radius: 15px;
+      pointer-events: none;
+    }
+  }
+}
+
+@media (min-width: theme-provider.$media-query-small-value) {
+  .infographic-wrapper {
+    flex-direction: row;
+
+    h1 {
+      width: min(10em, 100%);
+      text-align: left;
+    }
+
+    .infographic-image-wrapper {
+      width: 30em;
+    }
+  }
+}

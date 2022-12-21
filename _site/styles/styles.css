@@ -500,6 +500,43 @@
     height: 100vh;
   }
 }
+.infographic-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 3em;
+  margin: 1em 2em 5em 2em;
+}
+.infographic-wrapper h1 {
+  background: #489e8e;
+  color: #fcfade;
+  padding: 0.5em;
+  font-size: clamp(2.3rem, 4vw, 3rem);
+  width: 100%;
+  text-align: center;
+}
+.infographic-wrapper .infographic-image-wrapper {
+  width: 100%;
+}
+.infographic-wrapper .infographic-image-wrapper img {
+  width: 100%;
+  border-radius: 15px;
+  pointer-events: none;
+}
+
+@media (min-width: 40em) {
+  .infographic-wrapper {
+    flex-direction: row;
+  }
+  .infographic-wrapper h1 {
+    width: min(10em, 100%);
+    text-align: left;
+  }
+  .infographic-wrapper .infographic-image-wrapper {
+    width: 30em;
+  }
+}
 * {
   margin: 0;
   padding: 0;

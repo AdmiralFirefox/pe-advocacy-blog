@@ -21,37 +21,37 @@ const Examples = () => {
       <div class="examples-content">
         <div>
           <div class="examples-image-overflow">
-            <img src="../assets/hukbo.jpg" alt="Hukbo" />
+            <img src="../../assets/hukbo.jpg" alt="Hukbo" />
           </div>
           <h1>Hukbo</h1>
         </div>
         <div>
           <div class="examples-image-overflow">
-            <img src="../assets/hukbo.jpg" alt="Hukbo" />
+            <img src="../../assets/hukbo.jpg" alt="Hukbo" />
           </div>
           <h1>Batuhang Bola</h1>
         </div>
         <div>
           <div class="examples-image-overflow">
-            <img src="../assets/hukbo.jpg" alt="Hukbo" />
+            <img src="../../assets/hukbo.jpg" alt="Hukbo" />
           </div>
           <h1>Dampa</h1>
         </div>
         <div>
           <div class="examples-image-overflow">
-            <img src="../assets/hukbo.jpg" alt="Hukbo" />
+            <img src="../../assets/hukbo.jpg" alt="Hukbo" />
           </div>
           <h1>Tumbang Preso</h1>
         </div>
         <div>
           <div class="examples-image-overflow">
-            <img src="../assets/hukbo.jpg" alt="Hukbo" />
+            <img src="../../assets/hukbo.jpg" alt="Hukbo" />
           </div>
           <h1>Luksong Tinik</h1>
         </div>
         <div>
           <div class="examples-image-overflow">
-            <img src="../assets/hukbo.jpg" alt="Hukbo" />
+            <img src="../../assets/hukbo.jpg" alt="Hukbo" />
           </div>
           <h1>Luksong Lubid</h1>
         </div>
