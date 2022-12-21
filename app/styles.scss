@@ -1,11 +1,13 @@
 @use "./navbar/navbar";
-@use "./articles/articles";
+@use "./articles/articles1";
+@use "./articles/articles2";
 @use "./conclusion/conclusion";
 @use "./definition/definition";
 @use "./examples/examples";
 @use "./footer/footer";
 @use "./hero/hero";
 @use "./infographic/infographic";
+@use "./themeprovider/themeprovider" as theme-provider;
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
 * {
@@ -13,4 +15,8 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
+}
+
+body {
+  background: theme-provider.$light-mocha-color;
 }

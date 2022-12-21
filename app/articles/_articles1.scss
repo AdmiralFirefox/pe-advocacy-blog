@@ -1,0 +1,50 @@
+@use "../themeprovider/themeprovider" as theme-provider;
+
+.articles-one-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2em;
+  margin: 1.5em 2em 5em 2em;
+
+  .articles-one-image-wrapper {
+    width: 100%;
+
+    img {
+      width: 100%;
+      border-radius: 10px;
+    }
+  }
+
+  .articles-one-content {
+    width: 100%;
+
+    h1 {
+      font-size: clamp(2rem, 3vw, 2.5rem);
+      color: theme-provider.$brown-color;
+    }
+
+    p {
+      margin-top: 1em;
+      font-size: clamp(1rem, 1.5vw, 1.2rem);
+      line-height: 1.7rem;
+      color: theme-provider.$brown-color;
+    }
+  }
+}
+
+@media (min-width: theme-provider.$media-query-normal-value) {
+  .articles-one-wrapper {
+    flex-direction: row-reverse;
+
+    .articles-one-image-wrapper {
+      align-self: flex-start;
+      width: min(40em, 90%);
+    }
+
+    .articles-one-content {
+      width: 37em;
+    }
+  }
+}
