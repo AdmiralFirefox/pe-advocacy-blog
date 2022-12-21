@@ -2,7 +2,7 @@ const { html } = require("common-tags");
 
 const Conclusion = () => {
   return html`
-    <div>
+    <div id="conclusion-section">
       <div class="conclusion-top-waves">
         <svg
           viewBox="0 0 500 150"

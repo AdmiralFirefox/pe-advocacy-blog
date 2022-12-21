@@ -2,7 +2,7 @@ const { html } = require("common-tags");
 
 const Examples = () => {
   return html`
-    <div class="examples-top-waves">
+    <div class="examples-top-waves" id="examples-section">
       <svg
         viewBox="0 0 500 150"
         preserveAspectRatio="none"
@@ -58,7 +58,7 @@ const Examples = () => {
       </div>
     </div>
 
-    <div class="examples-bottom-waves">
+    <div class="examples-bottom-waves" id="infographics-section">
       <svg
         viewBox="0 0 500 150"
         preserveAspectRatio="none"

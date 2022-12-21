@@ -2,7 +2,7 @@ const { html } = require("common-tags");
 
 const Definition = () => {
   return html`
-    <div>
+    <div id="definition-section">
       <div class="definition-wrapper">
         <section class="definition-content">
           <h1>What is...</h1>
@@ -47,7 +47,7 @@ const Definition = () => {
         </div>
       </div>
 
-      <div class="definition-waves">
+      <div class="definition-waves" id="article-section">
         <svg
           viewBox="0 0 500 150"
           preserveAspectRatio="none"

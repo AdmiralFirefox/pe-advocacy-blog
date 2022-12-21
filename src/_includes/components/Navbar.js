@@ -15,20 +15,20 @@ const Navbar = () => {
         </div>
 
         <div>
-          <p>Definition</p>
-          <p>Articles</p>
-          <p>Examples</p>
-          <p>Infographic</p>
-          <p>Conclusion</p>
+          <p id="scroll-definition">Definition</p>
+          <p id="scroll-articles">Articles</p>
+          <p id="scroll-examples">Examples</p>
+          <p id="scroll-infographics">Infographic</p>
+          <p id="scroll-conclusion">Conclusion</p>
         </div>
       </nav>
 
       <nav class="mobile-navbar" id="mobile-navbar">
-        <p>Definition</p>
-        <p>Articles</p>
-        <p>Examples</p>
-        <p>Infographic</p>
-        <p>Conclusion</p>
+        <p id="scroll-definition">Definition</p>
+        <p id="scroll-articles">Articles</p>
+        <p id="scroll-examples">Examples</p>
+        <p id="scroll-infographics">Infographic</p>
+        <p id="scroll-conclusion">Conclusion</p>
       </nav>
 
       <div class="navbar-overlay" id="navbar-overlay" />
