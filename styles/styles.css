@@ -237,6 +237,11 @@
     width: min(30em, 90%);
   }
 }
+.definition-waves {
+  height: 9.4em;
+  overflow: hidden;
+}
+
 .hero-section-wrapper {
   background: url("../../assets/herobg.png") rgba(86, 71, 57, 0.8);
   background-size: cover;
