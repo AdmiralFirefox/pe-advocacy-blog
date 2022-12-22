@@ -397,7 +397,7 @@
 }
 .definition-wrapper .definition-content p {
   color: #489e8e;
-  margin-top: 1em;
+  margin-top: 1.3em;
   font-size: clamp(1rem, 1.5vw, 1.15rem);
   line-height: 1.4em;
 }
@@ -618,11 +618,12 @@
   text-align: center;
 }
 .infographic-wrapper .infographic-image-wrapper {
-  width: min(27em, 100%);
+  width: min(26em, 100%);
 }
 .infographic-wrapper .infographic-image-wrapper img {
   width: 100%;
   border-radius: 15px;
+  border: 12px solid #09502e;
   pointer-events: none;
 }
 

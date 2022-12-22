@@ -18,11 +18,12 @@
   }
 
   .infographic-image-wrapper {
-    width: min(27em, 100%);
+    width: min(26em, 100%);
 
     img {
       width: 100%;
       border-radius: 15px;
+      border: 12px solid theme-provider.$dark-green-color;
       pointer-events: none;
     }
   }

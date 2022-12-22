@@ -20,35 +20,18 @@ const Conclusion = () => {
         <h1>Conclusion</h1>
         <div class="conclusion-text">
           <p id="fade-up-animation-low-delay">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit
-            quis molestias ipsum cum adipisci quia, voluptatibus pariatur a
-            laborum quo quam nostrum ab qui libero saepe eaque eos eum deserunt.
-            Modi quisquam possimus ea quo laudantium, aut tempore recusandae
-            odio cupiditate ullam itaque saepe minus, praesentium repellendus
-            soluta cum voluptate rerum porro. Nesciunt reprehenderit
-            necessitatibus eos ad hic impedit, numquam inventore placeat
-            doloribus voluptate aut dignissimos, libero aperiam optio eum
-            mollitia voluptatem nostrum laboriosam non recusandae minus tempora
-            excepturi sint! Odit, amet accusantium qui non dolorem doloribus
-            temporibus at porro repellendus animi omnis culpa nihil voluptate
-            consequatur numquam laboriosam ex dolore quibusdam sequi in corporis
-            officia? Aut illo placeat voluptates labore perspiciatis ad
-            recusandae suscipit aliquam neque eos? Adipisci inventore ipsam cum
-            est, pariatur sed soluta facere minima sint eos alias eum amet
-            veritatis nostrum, minus sit culpa. Ipsam voluptatem laborum aut
-            animi itaque, cum reprehenderit enim tempora minus. Corporis, quos!
-            Magni, dicta aliquid ab quaerat eos error? Culpa eius natus enim
-            molestiae facere, exercitationem repellat doloribus deleniti dolorum
-            quia, itaque quae error optio necessitatibus eligendi vitae
-            perferendis dolore quas. Est officia iste dolorem debitis
-            recusandae, perspiciatis similique rem, odit ducimus nisi, fugiat
-            asperiores itaque. Voluptates consequatur modi ex voluptatum, sit
-            velit quasi voluptatem, facilis impedit cum eos natus quod
-            doloremque odio mollitia eaque cumque minus molestiae, neque aliquid
-            porro commodi distinctio fuga dolore? Ipsam quis, non autem
-            similique vel dignissimos, quo eius in, delectus adipisci aliquid
-            libero laborum. Fugit excepturi, unde tempora reiciendis et placeat
-            provident incidunt ratione veritatis.
+            In general, Laro ng Lahi, our Traditional Filipino Games, are an
+            integral and essential part of our culture. These games give us a
+            glimpse into our past and our culture. Despite all the modernity
+            that globalization has brought, it&apos;s imperative that we keep
+            this spirit of tradition alive no matter what. May this blog inspire
+            you, dear reader, to continue the spirit our ancestors passed down
+            toward us. We hope that you have learned much from your time here.
+            <br />
+            <br />
+            Thank you for visiting our site. <br />
+            Now go out there and explore laro ng lahi to your heart&apos;s
+            content!
           </p>
         </div>
       </div>
