@@ -566,7 +566,7 @@
   }
 }
 .hero-section-wrapper {
-  background: url("../../assets/herobg.png") rgba(86, 71, 57, 0.8);
+  background: url("../../assets/herobg.jpg") rgba(86, 71, 57, 0.8);
   background-size: cover;
   background-position: center 4.5em;
   background-repeat: no-repeat;

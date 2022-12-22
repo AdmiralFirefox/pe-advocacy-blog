@@ -1,7 +1,7 @@
 @use "../themeprovider/themeprovider" as theme-provider;
 
 .hero-section-wrapper {
-  background: url("../../assets/herobg.png")
+  background: url("../../assets/herobg.jpg")
     theme-provider.$brown-color-semi-transparent;
   background-size: cover;
   background-position: center 4.5em;
