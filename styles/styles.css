@@ -536,6 +536,7 @@
   visibility: hidden;
   transform: translateY(-1em);
   transition: opacity 0.5s ease-in-out, visibility 0.5s ease-in-out, transform 0.5s ease-in-out;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .scroll-to-up button {
